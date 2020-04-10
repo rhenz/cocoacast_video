@@ -8,7 +8,7 @@ target 'CococastsVideo' do
   pod 'ReachabilitySwift', '~> 5.0.0'
 
   # Development
-  pod 'Reveal-SDK', configurations: ['Debug']
+  pod 'Reveal-SDK', configurations: ['Debug/Staging', 'Debug/Production']
 
   target 'CococastsVideoTests' do
     inherit! :search_paths

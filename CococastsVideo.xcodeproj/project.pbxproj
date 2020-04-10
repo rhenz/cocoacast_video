@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3E52E788D27A7CA2AD76E22C /* Pods_CococastsVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87136D95776FD56709DE9D5 /* Pods_CococastsVideoTests.framework */; };
 		6900A1936AB4B3529C3500D9 /* Pods_CococastsVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310BB2960A77544F76DDFFDB /* Pods_CococastsVideo.framework */; };
+		693134852440AEAA0086F25A /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693134842440AEAA0086F25A /* Configuration.swift */; };
+		693134872440AF420086F25A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693134862440AF420086F25A /* Environment.swift */; };
 		69B0CC762439CB42003371F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0CC752439CB42003371F9 /* AppDelegate.swift */; };
 		69B0CC7A2439CB42003371F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0CC792439CB42003371F9 /* ViewController.swift */; };
 		69B0CC7D2439CB42003371F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B0CC7B2439CB42003371F9 /* Main.storyboard */; };
@@ -35,8 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BA75CC3C8246A445C2CF11 /* Pods-CococastsVideo-CococastsVideoUITests.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo-CococastsVideoUITests.debug-staging.xcconfig"; path = "Target Support Files/Pods-CococastsVideo-CococastsVideoUITests/Pods-CococastsVideo-CococastsVideoUITests.debug-staging.xcconfig"; sourceTree = "<group>"; };
 		310BB2960A77544F76DDFFDB /* Pods_CococastsVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CococastsVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32195EBED57A125592FA3C15 /* Pods-CococastsVideoTests.release-production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideoTests.release-production.xcconfig"; path = "Target Support Files/Pods-CococastsVideoTests/Pods-CococastsVideoTests.release-production.xcconfig"; sourceTree = "<group>"; };
+		3484AAC36C3CC7F2F369A8A8 /* Pods-CococastsVideo-CococastsVideoUITests.debug-production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo-CococastsVideoUITests.debug-production.xcconfig"; path = "Target Support Files/Pods-CococastsVideo-CococastsVideoUITests/Pods-CococastsVideo-CococastsVideoUITests.debug-production.xcconfig"; sourceTree = "<group>"; };
 		393FA194D9E282CA887DA2D2 /* Pods-CococastsVideo-CococastsVideoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo-CococastsVideoUITests.release.xcconfig"; path = "Target Support Files/Pods-CococastsVideo-CococastsVideoUITests/Pods-CococastsVideo-CococastsVideoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A6A40A07A611624C9BCB9CB /* Pods-CococastsVideo.debug-production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo.debug-production.xcconfig"; path = "Target Support Files/Pods-CococastsVideo/Pods-CococastsVideo.debug-production.xcconfig"; sourceTree = "<group>"; };
+		4B66616BA369939743A6E386 /* Pods-CococastsVideoTests.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideoTests.debug-staging.xcconfig"; path = "Target Support Files/Pods-CococastsVideoTests/Pods-CococastsVideoTests.debug-staging.xcconfig"; sourceTree = "<group>"; };
+		4D4DBC86D2099DDD1FE0E811 /* Pods-CococastsVideo-CococastsVideoUITests.release-production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo-CococastsVideoUITests.release-production.xcconfig"; path = "Target Support Files/Pods-CococastsVideo-CococastsVideoUITests/Pods-CococastsVideo-CococastsVideoUITests.release-production.xcconfig"; sourceTree = "<group>"; };
+		5DB0F32151773D895C447CA5 /* Pods-CococastsVideoTests.debug-production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideoTests.debug-production.xcconfig"; path = "Target Support Files/Pods-CococastsVideoTests/Pods-CococastsVideoTests.debug-production.xcconfig"; sourceTree = "<group>"; };
+		61704B30BC338F5F793AA788 /* Pods-CococastsVideo-CococastsVideoUITests.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo-CococastsVideoUITests.release-staging.xcconfig"; path = "Target Support Files/Pods-CococastsVideo-CococastsVideoUITests/Pods-CococastsVideo-CococastsVideoUITests.release-staging.xcconfig"; sourceTree = "<group>"; };
+		67C0F929B360DD2519CD9F5F /* Pods-CococastsVideoTests.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideoTests.release-staging.xcconfig"; path = "Target Support Files/Pods-CococastsVideoTests/Pods-CococastsVideoTests.release-staging.xcconfig"; sourceTree = "<group>"; };
+		693134842440AEAA0086F25A /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		693134862440AF420086F25A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		69B0CC722439CB42003371F9 /* CococastsVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CococastsVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B0CC752439CB42003371F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B0CC792439CB42003371F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,11 +63,14 @@
 		69B0CC992439CB44003371F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72AB6772845EB35BDB261E05 /* Pods-CococastsVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideoTests.debug.xcconfig"; path = "Target Support Files/Pods-CococastsVideoTests/Pods-CococastsVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74377EA7BC8DE29978B305BA /* Pods_CococastsVideo_CococastsVideoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CococastsVideo_CococastsVideoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EC6F7D20592C4CAF9F4282 /* Pods-CococastsVideo.release-production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo.release-production.xcconfig"; path = "Target Support Files/Pods-CococastsVideo/Pods-CococastsVideo.release-production.xcconfig"; sourceTree = "<group>"; };
 		A57DB791D6B85B2FC217F219 /* Pods-CococastsVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo.release.xcconfig"; path = "Target Support Files/Pods-CococastsVideo/Pods-CococastsVideo.release.xcconfig"; sourceTree = "<group>"; };
 		C2397B56B35CC309040BCE76 /* Pods-CococastsVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo.debug.xcconfig"; path = "Target Support Files/Pods-CococastsVideo/Pods-CococastsVideo.debug.xcconfig"; sourceTree = "<group>"; };
 		C87136D95776FD56709DE9D5 /* Pods_CococastsVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CococastsVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ACAA5492C901EE94534672 /* Pods-CococastsVideo-CococastsVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo-CococastsVideoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CococastsVideo-CococastsVideoUITests/Pods-CococastsVideo-CococastsVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E858C1E9C9B4507EB157119E /* Pods-CococastsVideo.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo.debug-staging.xcconfig"; path = "Target Support Files/Pods-CococastsVideo/Pods-CococastsVideo.debug-staging.xcconfig"; sourceTree = "<group>"; };
 		EAD26E27C88E84D9FB492824 /* Pods-CococastsVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideoTests.release.xcconfig"; path = "Target Support Files/Pods-CococastsVideoTests/Pods-CococastsVideoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF254E24FC938EA4EE45E7F2 /* Pods-CococastsVideo.release-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CococastsVideo.release-staging.xcconfig"; path = "Target Support Files/Pods-CococastsVideo/Pods-CococastsVideo.release-staging.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +110,29 @@
 				393FA194D9E282CA887DA2D2 /* Pods-CococastsVideo-CococastsVideoUITests.release.xcconfig */,
 				72AB6772845EB35BDB261E05 /* Pods-CococastsVideoTests.debug.xcconfig */,
 				EAD26E27C88E84D9FB492824 /* Pods-CococastsVideoTests.release.xcconfig */,
+				E858C1E9C9B4507EB157119E /* Pods-CococastsVideo.debug-staging.xcconfig */,
+				3A6A40A07A611624C9BCB9CB /* Pods-CococastsVideo.debug-production.xcconfig */,
+				FF254E24FC938EA4EE45E7F2 /* Pods-CococastsVideo.release-staging.xcconfig */,
+				86EC6F7D20592C4CAF9F4282 /* Pods-CococastsVideo.release-production.xcconfig */,
+				03BA75CC3C8246A445C2CF11 /* Pods-CococastsVideo-CococastsVideoUITests.debug-staging.xcconfig */,
+				3484AAC36C3CC7F2F369A8A8 /* Pods-CococastsVideo-CococastsVideoUITests.debug-production.xcconfig */,
+				61704B30BC338F5F793AA788 /* Pods-CococastsVideo-CococastsVideoUITests.release-staging.xcconfig */,
+				4D4DBC86D2099DDD1FE0E811 /* Pods-CococastsVideo-CococastsVideoUITests.release-production.xcconfig */,
+				4B66616BA369939743A6E386 /* Pods-CococastsVideoTests.debug-staging.xcconfig */,
+				5DB0F32151773D895C447CA5 /* Pods-CococastsVideoTests.debug-production.xcconfig */,
+				67C0F929B360DD2519CD9F5F /* Pods-CococastsVideoTests.release-staging.xcconfig */,
+				32195EBED57A125592FA3C15 /* Pods-CococastsVideoTests.release-production.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		693134832440AE9E0086F25A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				693134842440AEAA0086F25A /* Configuration.swift */,
+				693134862440AF420086F25A /* Environment.swift */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		69B0CC692439CB42003371F9 = {
@@ -124,8 +160,9 @@
 		69B0CC742439CB42003371F9 /* CococastsVideo */ = {
 			isa = PBXGroup;
 			children = (
+				693134832440AE9E0086F25A /* Configuration */,
 				69B0CCA52439CB52003371F9 /* Application Delegate */,
-				69B0CCA62439CB6C003371F9 /* View Controllers */,
+				69B0CCA62439CB6C003371F9 /* Controllers */,
 				69B0CCA72439CB74003371F9 /* Storyboards */,
 				69B0CCA82439CB7B003371F9 /* Resources */,
 				69B0CCA92439CB80003371F9 /* Supporting Files */,
@@ -157,12 +194,12 @@
 			path = "Application Delegate";
 			sourceTree = "<group>";
 		};
-		69B0CCA62439CB6C003371F9 /* View Controllers */ = {
+		69B0CCA62439CB6C003371F9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				69B0CC792439CB42003371F9 /* ViewController.swift */,
 			);
-			path = "View Controllers";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		69B0CCA72439CB74003371F9 /* Storyboards */ = {
@@ -455,6 +492,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693134852440AEAA0086F25A /* Configuration.swift in Sources */,
+				693134872440AF420086F25A /* Environment.swift in Sources */,
 				69B0CC7A2439CB42003371F9 /* ViewController.swift in Sources */,
 				69B0CC762439CB42003371F9 /* AppDelegate.swift in Sources */,
 			);
@@ -509,7 +548,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		69B0CC9A2439CB44003371F9 /* Debug */ = {
+		6931347B2440AC500086F25A /* Debug/Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -567,9 +606,73 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Debug/Production;
 		};
-		69B0CC9B2439CB44003371F9 /* Release */ = {
+		6931347C2440AC500086F25A /* Debug/Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6A40A07A611624C9BCB9CB /* Pods-CococastsVideo.debug-production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COCOACAST_BASE_URL = "https://cocoacasts.com";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJQF9JJWDE;
+				INFOPLIST_FILE = "CococastsVideo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CocoacastVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug/Production;
+		};
+		6931347D2440AC500086F25A /* Debug/Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB0F32151773D895C447CA5 /* Pods-CococastsVideoTests.debug-production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CococastsVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CococastsVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CococastsVideo.app/CococastsVideo";
+			};
+			name = Debug/Production;
+		};
+		6931347E2440AC500086F25A /* Debug/Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3484AAC36C3CC7F2F369A8A8 /* Pods-CococastsVideo-CococastsVideoUITests.debug-production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CococastsVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CococastsVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CococastsVideo;
+			};
+			name = Debug/Production;
+		};
+		6931347F2440AC600086F25A /* Release/Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -621,47 +724,33 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Release/Production;
 		};
-		69B0CC9D2439CB44003371F9 /* Debug */ = {
+		693134802440AC600086F25A /* Release/Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2397B56B35CC309040BCE76 /* Pods-CococastsVideo.debug.xcconfig */;
+			baseConfigurationReference = 86EC6F7D20592C4CAF9F4282 /* Pods-CococastsVideo.release-production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COCOACAST_BASE_URL = "https://cocoacasts.com";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJQF9JJWDE;
 				INFOPLIST_FILE = "CococastsVideo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CococastsVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CocoacastVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release/Production;
 		};
-		69B0CC9E2439CB44003371F9 /* Release */ = {
+		693134812440AC600086F25A /* Release/Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A57DB791D6B85B2FC217F219 /* Pods-CococastsVideo.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "CococastsVideo/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CococastsVideo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		69B0CCA02439CB44003371F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72AB6772845EB35BDB261E05 /* Pods-CococastsVideoTests.debug.xcconfig */;
+			baseConfigurationReference = 32195EBED57A125592FA3C15 /* Pods-CococastsVideoTests.release-production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -679,11 +768,189 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CococastsVideo.app/CococastsVideo";
 			};
-			name = Debug;
+			name = Release/Production;
 		};
-		69B0CCA12439CB44003371F9 /* Release */ = {
+		693134822440AC600086F25A /* Release/Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAD26E27C88E84D9FB492824 /* Pods-CococastsVideoTests.release.xcconfig */;
+			baseConfigurationReference = 4D4DBC86D2099DDD1FE0E811 /* Pods-CococastsVideo-CococastsVideoUITests.release-production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CococastsVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CococastsVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CococastsVideo;
+			};
+			name = Release/Production;
+		};
+		69B0CC9A2439CB44003371F9 /* Debug/Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug/Staging;
+		};
+		69B0CC9B2439CB44003371F9 /* Release/Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release/Staging;
+		};
+		69B0CC9D2439CB44003371F9 /* Debug/Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E858C1E9C9B4507EB157119E /* Pods-CococastsVideo.debug-staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COCOACAST_BASE_URL = "https://staging.cocoacasts.com";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJQF9JJWDE;
+				INFOPLIST_FILE = "CococastsVideo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CocoacastVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug/Staging;
+		};
+		69B0CC9E2439CB44003371F9 /* Release/Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF254E24FC938EA4EE45E7F2 /* Pods-CococastsVideo.release-staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COCOACAST_BASE_URL = "https://staging.cocoacasts.com";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJQF9JJWDE;
+				INFOPLIST_FILE = "CococastsVideo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CocoacastVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release/Staging;
+		};
+		69B0CCA02439CB44003371F9 /* Debug/Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B66616BA369939743A6E386 /* Pods-CococastsVideoTests.debug-staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -701,11 +968,33 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CococastsVideo.app/CococastsVideo";
 			};
-			name = Release;
+			name = Debug/Staging;
 		};
-		69B0CCA32439CB44003371F9 /* Debug */ = {
+		69B0CCA12439CB44003371F9 /* Release/Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8ACAA5492C901EE94534672 /* Pods-CococastsVideo-CococastsVideoUITests.debug.xcconfig */;
+			baseConfigurationReference = 67C0F929B360DD2519CD9F5F /* Pods-CococastsVideoTests.release-staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CococastsVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JLCS.CococastsVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CococastsVideo.app/CococastsVideo";
+			};
+			name = Release/Staging;
+		};
+		69B0CCA32439CB44003371F9 /* Debug/Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BA75CC3C8246A445C2CF11 /* Pods-CococastsVideo-CococastsVideoUITests.debug-staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -721,11 +1010,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CococastsVideo;
 			};
-			name = Debug;
+			name = Debug/Staging;
 		};
-		69B0CCA42439CB44003371F9 /* Release */ = {
+		69B0CCA42439CB44003371F9 /* Release/Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 393FA194D9E282CA887DA2D2 /* Pods-CococastsVideo-CococastsVideoUITests.release.xcconfig */;
+			baseConfigurationReference = 61704B30BC338F5F793AA788 /* Pods-CococastsVideo-CococastsVideoUITests.release-staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -741,7 +1030,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CococastsVideo;
 			};
-			name = Release;
+			name = Release/Staging;
 		};
 /* End XCBuildConfiguration section */
 
@@ -749,38 +1038,46 @@
 		69B0CC6D2439CB42003371F9 /* Build configuration list for PBXProject "CococastsVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69B0CC9A2439CB44003371F9 /* Debug */,
-				69B0CC9B2439CB44003371F9 /* Release */,
+				69B0CC9A2439CB44003371F9 /* Debug/Staging */,
+				6931347B2440AC500086F25A /* Debug/Production */,
+				69B0CC9B2439CB44003371F9 /* Release/Staging */,
+				6931347F2440AC600086F25A /* Release/Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release/Staging;
 		};
 		69B0CC9C2439CB44003371F9 /* Build configuration list for PBXNativeTarget "CococastsVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69B0CC9D2439CB44003371F9 /* Debug */,
-				69B0CC9E2439CB44003371F9 /* Release */,
+				69B0CC9D2439CB44003371F9 /* Debug/Staging */,
+				6931347C2440AC500086F25A /* Debug/Production */,
+				69B0CC9E2439CB44003371F9 /* Release/Staging */,
+				693134802440AC600086F25A /* Release/Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release/Staging;
 		};
 		69B0CC9F2439CB44003371F9 /* Build configuration list for PBXNativeTarget "CococastsVideoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69B0CCA02439CB44003371F9 /* Debug */,
-				69B0CCA12439CB44003371F9 /* Release */,
+				69B0CCA02439CB44003371F9 /* Debug/Staging */,
+				6931347D2440AC500086F25A /* Debug/Production */,
+				69B0CCA12439CB44003371F9 /* Release/Staging */,
+				693134812440AC600086F25A /* Release/Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release/Staging;
 		};
 		69B0CCA22439CB44003371F9 /* Build configuration list for PBXNativeTarget "CococastsVideoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				69B0CCA32439CB44003371F9 /* Debug */,
-				69B0CCA42439CB44003371F9 /* Release */,
+				69B0CCA32439CB44003371F9 /* Debug/Staging */,
+				6931347E2440AC500086F25A /* Debug/Production */,
+				69B0CCA42439CB44003371F9 /* Release/Staging */,
+				693134822440AC600086F25A /* Release/Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Release/Staging;
 		};
 /* End XCConfigurationList section */
 	};

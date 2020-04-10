@@ -1,0 +1,13 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :update_app_id do
+    produce(
+      username: ENV['FASTLANE_USER'],
+      app_name: 'CocoacastsVideo',
+      language: 'English',
+      app_version: '1.0',
+      sku: 'IC.CococastVideoP')
+  end
+end

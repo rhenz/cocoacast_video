@@ -1,0 +1,7 @@
+# app_identifier("[[APP_IDENTIFIER]]") # The bundle identifier of your app
+# apple_id("[[APPLE_ID]]") # Your Apple email address
+
+app_identifier("IC.CococastVideoP")
+apple_id(ENV["FASTLANE_USER"])
+team_id "8W97C4Z662" #PROSEL
+itc_team_id "119624655"
